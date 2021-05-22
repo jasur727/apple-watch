@@ -63,16 +63,18 @@ html {
   color: #333333;
   margin-right: 30px;
   text-decoration: none;
-  transition: color 0.5s ease;
+  border-bottom: 2px solid transparent;
+  transition:all 0.5s ease;
 }
 
 .links:hover{
-  color: rgb(14, 176, 240);
+  border-bottom: 2px solid  black;
+  
 }
 
 .how-can{
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #666666;
   padding-bottom: 10px;
 }
 
@@ -126,11 +128,17 @@ html {
   border: 2px solid transparent;
   background-color: rgba(234, 98, 92, 1);
   padding: 12px 38px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.keynote:hover{
+  background-color: #C9514C;
+  color: #FFFFFF;
 }
 
 .hero-wrapper{
   padding: 170px 0 185px 0;
-  background-position: calc(50% + 500px)84px;;
+  background-position: calc(50% + 580px)84px;;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../img/intro-bg.png");
@@ -144,6 +152,7 @@ html {
 .main-header{
   display: flex;
   justify-content: space-between;
+  margin-top: 68px;
 }
 
 .runs{
@@ -222,9 +231,9 @@ html {
   content: '';
   display: block;
   width: 40px;
-  height: 2px;
+  height: 1px;
   margin-right: 10px;
-  border: 2px solid transparent;
+  border: 1px solid transparent;
   background-color: rgba(234, 98, 92, 1);
 }
 
@@ -242,6 +251,12 @@ html {
   flex: none;
   order: 1;
   flex-grow: 0;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.just-link:hover{
+  background-color: #C9514C;
+  color: #FFFFFF;
 }
 
 .nike{
@@ -298,6 +313,12 @@ html {
   text-decoration: none;
   text-transform: uppercase;
   margin-top: 30px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.buy-now:hover{
+  background-color: #C9514C;
+  color: #FFFFFF;
 }
 
 
@@ -312,7 +333,7 @@ html {
 .footer-mid{
   display: flex;
   justify-content: space-between;
-  padding: 240px 125px 240px 0;
+  padding: 240px 206px 240px 0;
 }
 
 .take-control{
@@ -325,8 +346,8 @@ html {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 30px 0px;
   width: 490px;
+  margin-bottom: 30px;
 }
 
 
@@ -351,6 +372,10 @@ html {
   color: #FFFFFF;
   text-decoration: none;
   text-transform: uppercase;
-  margin-top: 30px;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
 
+.explare:hover{
+  background-color: #C9514C;
+  color: #FFFFFF;
 }
