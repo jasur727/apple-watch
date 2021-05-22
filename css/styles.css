@@ -1,0 +1,356 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2'),
+      url('../fonts/Roboto-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
+      url('../fonts/Roboto-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+html {
+  box-sizing: border-box;
+
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+}
+
+.body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto','Arial',sans-serif;
+  font-style: normal;
+}
+
+
+.container{
+  max-width: 1250px;
+  padding-left: 125px;
+  padding-right: 125px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.apple-icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.site-header-item{
+  list-style: none;
+  display: flex;
+}
+
+.links{
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  color: #333333;
+  margin-right: 30px;
+  text-decoration: none;
+  transition: color 0.5s ease;
+}
+
+.links:hover{
+  color: rgb(14, 176, 240);
+}
+
+.how-can{
+  border: none;
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+}
+
+.hero{
+  display: flex;
+  align-items: center;
+}
+
+.site-hero{
+  display: block;
+}
+
+.freedom{
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+.answer{
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border-left: 2px solid black;
+  padding-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.keynote{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 0px;
+  border: 2px solid transparent;
+  background-color: rgba(234, 98, 92, 1);
+  padding: 12px 38px;
+}
+
+.hero-wrapper{
+  padding: 170px 0 185px 0;
+  background-position: calc(50% + 500px)84px;;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("../img/intro-bg.png");
+  border-bottom: 1px solid #000;
+}
+
+
+.hero{
+  margin-top: 82px;
+}
+.main-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.runs{
+  list-style: none;
+}
+
+.your-runs{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #222222;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 68px;
+}
+
+.train{
+  width: 280px;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 160%;
+  color: #333333;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 30px;
+}
+
+.btn-runs{
+  display: flex;
+  margin-top: 20px;
+}
+
+.runs-btn1::after{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid transparent;
+  background-color: rgba(221, 221, 221, 1);
+}
+
+.runs-btn2::after{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid transparent;
+  background-color: rgba(221, 221, 221, 1);
+  margin-left: 10px;
+}
+
+.runs-btn3::after{
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  border: 2px solid transparent;
+  background-color: rgba(221, 221, 221, 1);
+  margin-left: 10px;
+}
+
+
+
+.just-item{
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.just-link::before{
+  content: '';
+  display: block;
+  width: 40px;
+  height: 2px;
+  margin-right: 10px;
+  border: 2px solid transparent;
+  background-color: rgba(234, 98, 92, 1);
+}
+
+.just-link{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 160%;
+  text-transform: uppercase;
+  color: #EA625C;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.nike{
+  margin-top: 140px;
+}
+
+.watch-hand{
+  content: '';
+  display: block;
+  width: 400px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-image: url("../img/watch-in-hand.svg");
+}
+
+.nike-brend{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nike-sport{
+  width: 380px;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.made-from{
+  width: 450px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  border-left: 1px solid #000;
+  padding-left: 40px;
+  margin-top: 30px;
+}
+
+.buy-now{
+  width: 260px;
+  border: 2px solid transparent;
+  padding: 12px 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(234, 98, 92, 1);
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+
+
+.footer{
+  margin-top: 70px;
+  background-image: url("../img/runners.svg");
+  background-repeat: no-repeat; 
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-mid{
+  display: flex;
+  justify-content: space-between;
+  padding: 240px 125px 240px 0;
+}
+
+.take-control{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 120%;
+  color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 30px 0px;
+  width: 490px;
+}
+
+
+.with-built{
+  margin: 0;
+  padding: 0;
+  width: 450px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+  border-left: 2px solid rgb(255, 255, 255);
+  padding-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.explare{
+  border: 2px solid transparent;
+  padding: 12px 90px;
+  background-color: rgba(234, 98, 92, 1);
+  color: #FFFFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 30px;
+
+}
